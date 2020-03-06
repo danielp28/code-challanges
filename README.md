@@ -11,3 +11,6 @@ A movie searching app using the omdb API. Was able to capture user inputs and ha
 
 # Mar 5th
 A Rock-Paper-Scissors game coded using JavaScript. This one was just the right amount of difficult, with 5 minutes remaining on my timer
+
+# Mar 6th
+A simple stopwatch using JavaScript. Tried to implement miliseconds but was unable to get seconds to reset to 0 after 60.
