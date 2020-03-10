@@ -14,3 +14,6 @@ A Rock-Paper-Scissors game coded using JavaScript. This one was just the right a
 
 # Mar 6th
 A simple stopwatch using JavaScript. Tried to implement miliseconds but was unable to get seconds to reset to 0 after 60.
+
+# Mar 10th
+A simple JS app that allows for user input of meals consumed on a certain day and displays them back. Super simplistic, does not save to localStorage and does not save after exit.
