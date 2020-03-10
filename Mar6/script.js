@@ -25,7 +25,7 @@ function reset(){
 
 function start(){
     if (!clockRunning){
-        intervalId = setInterval(count, 1);
+        intervalId = setInterval(count, 10);
         clockRunning = true;
     }
 }
@@ -51,27 +51,22 @@ function count(){
 }
 
 function timeConveter(t){
-    var hours = Math.floor(t/3600)
-    var minutes = Math.floor(t/60)
-    var seconds = t -(minutes*60);
+    var hours = Math.floor(t/60)
+    var minutes = t - (hours*60)
+    var mili = t -(minutes*60);
     
     
+    if (mili < 10){
+        mili = "0" + mili
+    }
+    if (minutes < 10){
+        minutes = "0" + minutes
+    }
     if (hours === 0){
         hours = "00"
-    }
-    else if(hours < 10){
-        hours = "0" + hours
-    }
-
-    if (seconds <10){
-        seconds = "0" + seconds;
+    } else if (hours < 10) {
+        hours ="0" + hours
     }
 
-    if (minutes === 0 ){
-        minutes = "00";
-    }
-    else if(minutes<10){
-        minutes = "0" + minutes
-    } 
-    return hours +":" + minutes + ":" + seconds
+    return hours +":" + minutes + ":" + mili
 }
