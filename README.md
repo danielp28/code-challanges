@@ -17,3 +17,6 @@ A simple stopwatch using JavaScript. Tried to implement miliseconds but was unab
 
 # Mar 10th
 A simple JS app that allows for user input of meals consumed on a certain day and displays them back. Super simplistic, does not save to localStorage and does not save after exit.
+
+# Mar 11th
+A MySQL database app that tracks in-game statistics such as kills, time alive and games played. DNF
