@@ -20,3 +20,6 @@ A simple JS app that allows for user input of meals consumed on a certain day an
 
 # Mar 11th
 A MySQL database app that tracks in-game statistics such as kills, time alive and games played. DNF
+
+# Mar 13th
+A recreation of a trivia game I while attending the coding bootcamp at UT, just with math questions.
