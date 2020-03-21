@@ -26,3 +26,6 @@ A recreation of a trivia game I while attending the coding bootcamp at UT, just 
 
 # Mar 15th
 Did you ice your wrist? More of a meme challange, just a list populated from an array that can have new values pushed to it from the form. Something to do with my broken wrist :(
+
+# Mar 21st
+A weather app using the openweather API. This is a homework that a lot of my tutoring students are on right now so I figured I would try to do it in under 30 minutes
