@@ -23,3 +23,6 @@ A MySQL database app that tracks in-game statistics such as kills, time alive an
 
 # Mar 13th
 A recreation of a trivia game I while attending the coding bootcamp at UT, just with math questions.
+
+# Mar 15th
+Did you ice your wrist? More of a meme challange, just a list populated from an array that can have new values pushed to it from the form. Something to do with my broken wrist :(
