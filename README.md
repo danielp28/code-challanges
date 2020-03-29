@@ -32,3 +32,6 @@ A weather app using the openweather API. This is a homework that a lot of my tut
 
 # Mar 28th
 An express app that allows the user to take mark the # of arenas and take notes for each level in DOOM Eternal
+
+# Mar 29th
+A geolocator that also gives weather info based on coordinates of your location
